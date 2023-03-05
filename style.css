@@ -53,3 +53,44 @@ a{
     font-size: 4rem;
 }
 
+.idol h1 span{
+
+    background-color: rgb(195, 0, 255);
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    animation-delay: 2s;
+    animation: text_showing_box 2s ease-in-out;
+}
+
+.idol .idol-btn{
+    margin-top: 32px;
+    background-color: transparent;
+    color:  rgb(195, 0, 255);
+    display: inline-block;
+    border: 1px solid rgb(195, 0, 255);
+    padding: 11px 31px ;
+    text-transform: none;
+    letter-spacing: 0.5rem;
+    font-size: 2rem;
+    transition: .3s ease-in-out;
+}
+
+.idol .idol-btn:hover{
+    color: #fff;
+    background-color:rgb(195, 0, 255);
+}
+
+/*key frames*/
+ @keyframes text_showing_box{
+    50%{
+        width: 100%;
+        left:0;
+    }
+    100%{
+        width: 0;
+        left: 100%;
+    }
+ }
