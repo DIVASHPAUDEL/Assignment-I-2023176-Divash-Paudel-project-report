@@ -123,15 +123,9 @@ a{
     color: rgb(232, 11, 195);
 }
 
-#myintrest .myintrest-top p{
-    margin-top: 15px;
-    letter-spacing: 0.1rem;
-    line-height: 2rem;
-    font-size: 1.5rem;
-    font-weight: 300;
-}
 
 #myintrest .myintrest-down{
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,7 +145,16 @@ a{
     background-image: url(./images/myintrestbg.jpg) ;
     background-size: cover;
     z-index: 1;
+    overflow: hidden;
+    transition: 0.3s;
 }
+
+#myintrest .myintrest-cards:hover {
+    transform: scale(1.1);
+    box-shadow:10px 0px 40px rgb(123, 0, 255);
+    transition: all 0.3s ease-in-out;
+  }
+  
 
 #myintrest .myintrest-cards::after{
     content: '';
@@ -161,9 +164,45 @@ a{
     width: 100%;
     height: 100%;
     opacity: .7;
-    background-color: #2b2929;
+    background-color: #191818;
     z-index: -1;
 }
+
+#myintrest .myintrest-down .icon{
+    margin-bottom: 21px;
+    width: 81px;
+    height: 81px;
+}
+/*for every image including the myintrest section images*/
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#myintrest .myintrest-cards h2{
+    color: #fff;
+    font-size: 2.5rem;
+    text-transform:uppercase;
+    margin-bottom: 12px;
+}
+
+#myintrest .myintrest-cards p{
+    color: #fff;
+    text-align: left;
+}
+
+/*for every paragraph*/
+p{
+    margin-top: 15px;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #000000;
+    text-align: left;
+}
+
 
 
 
