@@ -31,6 +31,7 @@ a{
     background-position: top center;
     position: relative;
     z-index: 1;
+    
 }
 /*created a overlay*/
 .idol::after{
@@ -45,12 +46,25 @@ a{
     z-index: -1;
 }
 
+#idol .idol{
+    max-width:100%; /*or 1400px*/
+    margin: 0 auto;
+    padding: 0 50px;
+    justify-content: flex-start;
+}
+
 .idol  h1{
     position: relative;
     display: block;
     width: fit-content;
-    color: #fff;
+    color: transparent;
     font-size: 4rem;
+    animation: text_showing .5s forwards;
+    animation-delay: 1.3s;
+}
+
+.idol h1:nth-child(3){
+    animation: text_showing_divashpaudel .4s ease forwards;
 }
 
 .idol h1 span{
@@ -68,7 +82,7 @@ a{
 .idol .idol-btn{
     margin-top: 32px;
     background-color: transparent;
-    color:  rgb(195, 0, 255);
+    color:  #fff;
     display: inline-block;
     border: 1px solid rgb(195, 0, 255);
     padding: 11px 31px ;
@@ -79,7 +93,7 @@ a{
 }
 
 .idol .idol-btn:hover{
-    color: #fff;
+    color: #dddddd;
     background-color:rgb(195, 0, 255);
 }
 
@@ -94,3 +108,18 @@ a{
         left: 100%;
     }
  }
+ 
+ @keyframes text_showing{
+    100%{
+        color: #fff;
+    }
+ }
+
+ @keyframes text_showing_divashpaudel{
+    100%{
+        color: rgb(89, 0, 255);
+        font-weight: 500;
+    }
+ }
+ 
+ 
