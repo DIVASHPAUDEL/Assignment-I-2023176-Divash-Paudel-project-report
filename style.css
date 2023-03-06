@@ -23,6 +23,32 @@ a{
     justify-content: center;
 }
 
+/*for Each section Title*/
+.each-sections-title{
+    font-size: 4rem;
+    color: #000000;
+    margin-bottom: 20px;
+    font-weight: 300;
+    text-align: center;
+    text-transform:uppercase;
+    letter-spacing: .1rem;
+}
+
+.each-sections-title span{
+    color: rgb(232, 11, 195);
+}
+
+/*for every paragraph*/
+p{
+    margin-top: 15px;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #000000;
+    text-align: left;
+}
+
 /*idol part*/
 
 .idol{
@@ -109,21 +135,6 @@ a{
     padding: 110px 0;
 }
 
-#myintrest .each-sections-title{
-    font-size: 4rem;
-    color: #000000;
-    margin-bottom: 20px;
-    font-weight: 300;
-    text-align: center;
-    text-transform:uppercase;
-    letter-spacing: .1rem;
-}
-
-#myintrest .each-sections-title span{
-    color: rgb(232, 11, 195);
-}
-
-
 #myintrest .myintrest-down{
     margin-top: 60px;
     display: flex;
@@ -192,16 +203,20 @@ img{
     text-align: left;
 }
 
-/*for every paragraph*/
-p{
-    margin-top: 15px;
-    letter-spacing: 0.1rem;
-    line-height: 2rem;
-    font-size: 1.5rem;
-    font-weight: 300;
-    color: #000000;
-    text-align: left;
+
+/*MY DESIGNS  AND CARDS*/
+
+#Designs .Designs{
+    margin-bottom: 0 auto;
+    flex-direction: column;
+    max-width: 80%;
+    padding: 110px 0;
 }
+
+
+
+
+
 
 
 
