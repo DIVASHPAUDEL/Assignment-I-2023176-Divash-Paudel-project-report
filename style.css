@@ -134,14 +134,17 @@ p{
 
 
 /*MY INTREST SECTION */
-.myintrest{
-}
 #myintrest .myintrest{
     margin: 0 auto;
     flex-direction: column;
     text-align: center;
     max-width: 100%;
     padding: 110px 0;
+}
+
+#myintrest .myintrest-top{
+    width: 100%;
+    max-width:75%;
 }
 
 #myintrest .myintrest-down{
@@ -353,7 +356,7 @@ img{
 
   /*Contact Me section in homepage*/
   #contact .contact{
-    max-width: 300px;
+    max-width: 1300px;
     flex-direction: column;
     margin: 0 auto;
     margin-top: 70px;
@@ -365,7 +368,7 @@ img{
 
   #contact .contact-card{
     display: flex;
-    width: 90%;
+    width: 82%;
     padding: 20px;
     border-radius: 21px;
     margin: 32px;
@@ -591,13 +594,29 @@ img{
       #contact .contact{
         flex-direction:column;
         min-width: 19vh;
-
+        align-items: center;
+        padding: 100px 0;
+        justify-content: center;
       }
-
-
-
-
+      #contact  .contact-cards{
+        width: 100%;
+        margin: 0;
+        padding: 18px;
+        flex-direction: row;
+        display: flex;
+      }
  }
+
+  /*media query for width of full screen(Desktop)*/
+
+  @media screen and (min-width:1200px){
+  #myintrest .myintrest-down .myintrest-cards{
+    margin:2%;
+    flex-basis: 21%;
+  }
+
+}
+
 
 
 
