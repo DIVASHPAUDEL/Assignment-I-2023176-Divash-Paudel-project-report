@@ -501,7 +501,56 @@ img{
         font-weight: 500;
     }
  }
+
+
+ /*media query for width of 760px(tablet)*/
+ @media screen and (min-width:760px){
+    #idol .idol-btn{
+        padding: 25px 62px;
+        font-size: 2.4rem;
+    }
+
+     h1.each-sections-title{
+        font-size: 7.5rem;
+    }
+    .about-me-text h1{
+        font-size: 7rem;
+    }
+
+    /*Idol section in 760px width(tablet)*/
+    #idol h1{
+        font-size: 7.4rem;
+    }
+
+ }
+
+
+
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*@media screen and (min-width: 768px) {
     .about-me {
