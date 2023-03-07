@@ -370,7 +370,7 @@ img{
   }
 
   #contact .contact-cards{
-    width: 450px;
+    width: 100%;
   }
 
   #contact .contact-card{
@@ -384,7 +384,7 @@ img{
     align-items: center;
     box-shadow: 1px 1px 20px 1px #000000;
     flex-direction: column;
-    transition: .1s;
+    transition: .5s;
   }
 
   #contact .contact-card:hover{
