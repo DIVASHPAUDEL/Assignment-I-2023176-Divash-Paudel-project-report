@@ -49,6 +49,13 @@ p{
     text-align: left;
 }
 
+/*for MY name style Divash paudel in top and in footer*/
+.myname h1{
+    text-transform: uppercase;
+    color: #f7f7f7;
+    font-size: 3rem;
+}
+
 /*idol part*/
 
 .idol{
@@ -339,28 +346,6 @@ img{
     color: rgb(232, 11, 195);
 }
 
-@media screen and (min-width: 768px) {
-    .about-me {
-      max-width: 1000px;
-    }
-    
-    .about-me-text {
-      width: 50%;
-      margin: 0;
-      font-size: 18px;
-    }
-    
-    .about-me-text h1 {
-      font-size: 5rem;
-      margin-bottom: 40px;
-    }
-    
-    .about-me-text h3 {
-      font-size: 2rem;
-    }
-  }
-
-
   /*Contact Me section in homepage*/
   #contact .contact{
     max-width: 1300px;
@@ -416,7 +401,42 @@ img{
 
   /*footer section*/
    #footer{
-    background:rgb(208, 200, 200);
+    background:rgb(93, 86, 86);
+   }
+
+   #footer .footer{
+    padding: 50px 0 10px 0;
+    min-height: 250px;
+    flex-direction: column;
+   }
+   #footer h2{
+    color: #fff;
+    letter-spacing: .1rem;
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+   }
+
+   #footer .media-logo{
+    margin-bottom: 25px;
+    display: flex;
+   }
+
+   #footer .media-items{
+    margin-right: 25px;
+   }
+
+   #footer .media-items img{
+    transition: .4s ease-in-out;
+    margin-top: 5px;
+   }
+
+   #footer .media-items img:hover{
+    transform: scale(1.4);
+   }
+   #footer p{
+    color: #fff;
    }
 
 
@@ -483,5 +503,24 @@ img{
  }
  
 
-
+/*@media screen and (min-width: 768px) {
+    .about-me {
+      max-width: 1000px;
+    }
+    
+    .about-me-text {
+      width: 50%;
+      margin: 0;
+      font-size: 18px;
+    }
+    
+    .about-me-text h1 {
+      font-size: 5rem;
+      margin-bottom: 40px;
+    }
+    
+    .about-me-text h3 {
+      font-size: 2rem;
+    }
+  }*/
  
