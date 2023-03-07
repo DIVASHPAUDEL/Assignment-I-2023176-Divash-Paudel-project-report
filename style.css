@@ -361,6 +361,61 @@ img{
   }
 
 
+  /*Contact Me section in homepage*/
+  #contact .contact{
+    max-width: 1300px;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 70px;
+  }
+
+  #contact .contact-cards{
+    width: 450px;
+  }
+
+  #contact .contact-card{
+    display: flex;
+    width: 90%;
+    padding: 20px;
+    border-radius: 21px;
+    margin: 32px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 20px 1px #000000;
+    flex-direction: column;
+    transition: .1s;
+  }
+
+  #contact .contact-card:hover{
+    box-shadow: 0 0 4px 0 #000000;
+  }
+
+  #contact .icon{
+    width: 70px;
+    margin:0 auto;
+    margin-bottom: 18px;
+  }
+
+  #contact .contact-info h1{
+    font-size: 2.5rem;
+    color: #000000;
+    margin-bottom: 12px;
+    font-weight: 300;
+    text-align: center;
+    text-transform:uppercase;
+    letter-spacing: .1rem;
+  }
+
+  #contact .contact-info h2{
+    color: #000000;
+    font-size: 1.2rem;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+
+
  
 
 
