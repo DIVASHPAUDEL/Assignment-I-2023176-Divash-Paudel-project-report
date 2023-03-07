@@ -285,12 +285,15 @@ img{
     width: 100%;
 }
 
+
 .Myself img{
-    width: 350px;
+    width: 40%;
+    max-width: 100%;
     padding-left: 40px;
     border-radius: 10px;
-    height: 400px;
+    height:auto;
     transition: transform .4s;
+    margin-right: 50px;
 }
 .Myself img:hover{
     transform: scale(1.2);
@@ -299,6 +302,7 @@ img{
 
 .about-me{
     display: flex;
+    flex-wrap: wrap;
     align-items:center;
     justify-content:space-evenly;
     margin: auto;
@@ -307,14 +311,16 @@ img{
 .about-me-text{
     text-align: justify;
     font-size: 15px;
-    width: 50%;
+    width: 100%;
+    max-width: 800px;
     color: #f7f7f7;
+    margin: 20px 0;
 }
 
 .about-me-text h1{
-    font-size: 5rem;
+    font-size: 3rem;
     color: #000000;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-weight: 300;
     text-align: center;
     text-transform:uppercase;
@@ -323,7 +329,7 @@ img{
 
 .about-me-text h3{
     color: #000000;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 12px;
     text-align: center;
     letter-spacing: 1px;
@@ -333,6 +339,29 @@ img{
     color: rgb(232, 11, 195);
 }
 
+@media screen and (min-width: 768px) {
+    .about-me {
+      max-width: 1000px;
+    }
+    
+    .about-me-text {
+      width: 50%;
+      margin: 0;
+      font-size: 18px;
+    }
+    
+    .about-me-text h1 {
+      font-size: 5rem;
+      margin-bottom: 40px;
+    }
+    
+    .about-me-text h3 {
+      font-size: 2rem;
+    }
+  }
+
+  
+ 
 
 
 
