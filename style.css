@@ -145,7 +145,7 @@ p{
 
 #myintrest .myintrest-cards{
     position: relative;
-    flex-basis: 75%;
+    flex-basis: 80%;
     display: flex;
     justify-content: center;
     padding: 31px;
@@ -225,7 +225,7 @@ img{
 }
 
 #Designs .Designs-cards{
-    width: 75%;
+    width: 85%;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -236,7 +236,7 @@ img{
 #Designs .Designs-info{
     padding: 32px;
     background-color: rgb(60, 72, 151);
-    flex-basis: 48%;
+    flex-basis: 49%;
     display: flex;
     align-items: flex-start;
     height: 100%;
@@ -360,7 +360,7 @@ img{
     }
   }
 
-  
+
  
 
 
