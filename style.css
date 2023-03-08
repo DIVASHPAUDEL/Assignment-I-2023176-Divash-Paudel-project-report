@@ -57,68 +57,66 @@ p{
     color: #be28b9;
 }
 
-/*navigation bar css*/
-#header{
-    z-index: 1050;
+
+
+/*Navigation bar*/
+nav {
     position: fixed;
-    height: auto;
-    width: 105vw;
     top: 0;
     left: 0;
-}
-
-#header .header{
-    min-height: 10vh;
-}
-
-.header .nav-bar{
-    padding: 0 7px;
-    align-items: center;
-    justify-content: space-between;
     width: 100%;
-    max-width: 1350px;
-    height: 100%;
     display: flex;
-}
-
-#header .nav-list ul{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    height: 100vh;
-    left: 100%;
-    top: 0;
-    justify-content: center;
-    align-items: left;
+    justify-content: flex-end;
+    background-color: #000000;
+    height: 8%;
+    align-items: center;
     z-index: 1;
-    overflow-x: hidden;
-}
+    justify-content: center;
+  }
+ .nav-image img{
+    height: 40px;
+    width: 60px;
+  }
 
-#header .nav-list ul a{
-    display: block;
-    font-size: 2.6rem;
+  .nav-image{
+    margin-right: 15%;
+
+  }
+
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 50px;
+    position: relative;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
     text-decoration: none;
-    color: #fff;
-    font-weight: 400;
-    letter-spacing: .3rem;
-    text-transform: uppercase;
-    padding: 25px;
-}
+    font-size: 20px;
+  }
+  
+  nav ul li a::after {
+    content: '';
+    height: 2px;
+    width: 0%;
+    background:  rgb(195, 0, 255);
+    display: block;
+    margin: auto;
+    transition: 0.9s;
+  }
+  
+  nav ul li a:hover::after {
+    width: 100%;
+  }
 
-#header .nav-list ul a::after{
-
-}
-
-
-
-
-
-
-
-
-
-
+  
 /*idol part*/
 
 .idol{
@@ -131,7 +129,7 @@ p{
 /*created a overlay*/
 .idol::after{
     content: '';
-    background-color: rgb(9, 9, 9);
+    background-color: rgb(18, 19, 20);
     left: 0;
     top: 0;
     position: absolute;
@@ -141,8 +139,8 @@ p{
     z-index: -1;
 }
 
-#idol .idol{
-    max-width:100%; /*or 1400px*/
+ .idol{
+    max-width:100%;
     margin: 0 auto;
     padding: 0 50px;
     justify-content: flex-start;
@@ -193,7 +191,7 @@ p{
 }
 
 
-/*MY INTREST SECTION */
+/*MY INTREST SECTION*/
 #myintrest .myintrest{
     margin: 0 auto;
     flex-direction: column;
@@ -227,17 +225,17 @@ p{
     margin: 11px 5%;
     background-image: url(./images/myintrestbg.jpg) ;
     background-size: cover;
-    z-index: 1;
-    overflow: hidden;
-    transition: 0.3s;
+    overflow:hidden;
+    z-index: -1;
 }
 
+/*i dont this need this hover at the moment
 #myintrest .myintrest-cards:hover {
     transform: scale(1.1);
     box-shadow:10px 0px 40px rgb(123, 0, 255);
     transition: all 0.3s ease-in-out;
   }
-  
+  */
 
 #myintrest .myintrest-cards::after{
     content: '';
