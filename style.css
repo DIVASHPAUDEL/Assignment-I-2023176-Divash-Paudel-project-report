@@ -60,7 +60,7 @@ header{
     width: 100%;
     justify-content: space-between;
     display: flex;
-    background: #161212;
+    background: rgb(18, 19, 20);
     padding: 5px 30px;
 }
 
@@ -131,7 +131,7 @@ nav{
 .HAMBURGER:before,
 .HAMBURGER:after{
     content: '';
-    height: 1px;
+    height: 0.5px;
     position: absolute;
     right: 0;
     border-radius: 8px;
@@ -641,7 +641,7 @@ img{
 
     /*Idol section in 760px width(tablet)*/
     #idol h1{
-        font-size: 7.4rem;
+        font-size: 5.5rem;
     }
 
     /*my intrest section in 760px*/
@@ -687,7 +687,7 @@ img{
       }
       
       .about-me-text h1 {
-        font-size: 5rem;
+        font-size: 4rem;
         margin-bottom: 40px;
         margin-top: 30px;
       }
