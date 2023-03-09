@@ -794,7 +794,7 @@ img{
 
     /*Designs section in 760px*/
     #Designs .Designs-cards{
-        height:450px;
+        height:425px;
         margin-bottom: 100px;
         border-radius: 0px;
         width: 90%;
@@ -810,7 +810,7 @@ img{
     }
     #Designs .Designs-screenshots img{
         height: 100%;
-        width: 95%;
+        width: 100%;
     }
     /*About section 760px*/
     .about-me img{
