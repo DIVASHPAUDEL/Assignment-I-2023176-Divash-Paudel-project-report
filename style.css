@@ -598,6 +598,45 @@ img{
     color: #fff;
    }
 
+   /*Started for portfolio page*/
+
+.for-all-bg-img{
+    background-image:linear-gradient(rgba(4,8,32,0.6),rgba(4,8,32,0.6)),url(./images/forallbgnav.jpg);
+    height: 30vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
 /*key frames*/
  @keyframes text_showing_box{
