@@ -239,6 +239,9 @@ nav input:checked ~ .option{
     padding: 0 50px;
     justify-content: flex-start;
 }
+.hi{
+    margin-bottom: 150px;
+}
 
 .idol  h1{
     position: relative;
@@ -607,6 +610,18 @@ img{
     background-position: center;
     background-size: cover;
 }
+
+.for-all-bg-img h1{
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+
+
+
 
 
 
