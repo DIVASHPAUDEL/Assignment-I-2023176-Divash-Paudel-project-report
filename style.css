@@ -2,10 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-html{
-    font-size: 11px;
     font-family: 'montserrat', sans-serif;
 }
 
@@ -99,7 +95,7 @@ nav{
 }
 
 .option li a{
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-decoration: none;
     padding: 20px 30px;
     color: #fff;
@@ -125,7 +121,7 @@ nav{
 /*HAMBURGER SECTION OF THE NAVIGATION BAR*/
 .HAMBURGER{
     position: relative;
-    background: #ff0000;
+    background: #44ff00;
     border-radius: 8px;
     height: 1px;
     width: 32px;
@@ -139,7 +135,7 @@ nav{
     position: absolute;
     right: 0;
     border-radius: 8px;
-    background: #ff0000;
+    background: #00ff0d;
     transition: 0.4s;
 }
 
@@ -183,7 +179,7 @@ nav input:checked ~ .HAMBURGER::after{
 }
 
 nav input:checked ~ .option{
-    box-shadow: -20px 0 40px rgba(219, 9, 187, 0.787);
+    box-shadow: -20px 0 40px rgba(3, 211, 31, 0.787);
     right: 0;
 }
 
@@ -215,42 +211,6 @@ nav input:checked ~ .option{
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 /*idol part*/
 
 .idol{
@@ -323,90 +283,6 @@ nav input:checked ~ .option{
     color: #dddddd;
     background-color:rgb(195, 0, 255);
 }
-
-
-/*MY INTREST SECTION*/
-#myintrest .myintrest{
-    margin: 0 auto;
-    flex-direction: column;
-    text-align: center;
-    max-width: 100%;
-    padding: 110px 0;
-}
-
-#myintrest .myintrest-top{
-    width: 100%;
-    max-width:75%;
-}
-
-#myintrest .myintrest-down{
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-#myintrest .myintrest-cards{
-    position: relative;
-    flex-basis: 80%;
-    display: flex;
-    justify-content: center;
-    padding: 31px;
-    border-radius: 11px;
-    align-items:flex-start;
-    flex-direction: column;
-    margin: 11px 5%;
-    background-image: url(./images/myintrestbg.jpg) ;
-    background-size: cover;
-    overflow:hidden;
-    z-index: -1;
-}
-
-/*i dont this need this hover at the moment
-#myintrest .myintrest-cards:hover {
-    transform: scale(1.1);
-    box-shadow:10px 0px 40px rgb(123, 0, 255);
-    transition: all 0.3s ease-in-out;
-  }
-  */
-
-#myintrest .myintrest-cards::after{
-    content: '';
-    left: 0;
-    top: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: .7;
-    background-color: #191818;
-    z-index: -1;
-}
-
-#myintrest .myintrest-down .icon{
-    margin-bottom: 21px;
-    width: 81px;
-    height: 81px;
-}
-/*for every image including the myintrest section images*/
-img{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
-
-#myintrest .myintrest-cards h2{
-    color: #fff;
-    font-size: 2.5rem;
-    text-transform:uppercase;
-    margin-bottom: 12px;
-}
-
-#myintrest .myintrest-cards p{
-    color: #fff;
-    text-align: left;
-}
-
 
 /*MY DESIGNS  AND CARDS*/
 
@@ -599,6 +475,89 @@ img{
     letter-spacing: 1px;
   }
 
+
+  /*MY INTREST SECTION*/
+#myintrest .myintrest{
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+    max-width: 100%;
+    padding: 110px 0;
+}
+
+#myintrest .myintrest-top{
+    width: 100%;
+    max-width:75%;
+}
+
+#myintrest .myintrest-down{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#myintrest .myintrest-cards{
+    position: relative;
+    flex-basis: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 31px;
+    border-radius: 11px;
+    align-items:flex-start;
+    flex-direction: column;
+    margin: 11px 5%;
+    background-image: url(./images/myintrestbg.jpg) ;
+    background-size: cover;
+    overflow:hidden;
+    z-index: -1;
+}
+
+/*i dont this need this hover at the moment
+#myintrest .myintrest-cards:hover {
+    transform: scale(1.1);
+    box-shadow:10px 0px 40px rgb(123, 0, 255);
+    transition: all 0.3s ease-in-out;
+  }
+  */
+
+#myintrest .myintrest-cards::after{
+    content: '';
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+    background-color: #191818;
+    z-index: -1;
+}
+
+#myintrest .myintrest-down .icon{
+    margin-bottom: 21px;
+    width: 81px;
+    height: 81px;
+}
+/*for every image including the myintrest section images*/
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#myintrest .myintrest-cards h2{
+    color: #fff;
+    font-size: 2.5rem;
+    text-transform:uppercase;
+    margin-bottom: 12px;
+}
+
+#myintrest .myintrest-cards p{
+    color: #fff;
+    text-align: left;
+}
+
   /*footer section*/
    #footer{
     background:rgb(93, 86, 86);
@@ -639,44 +598,7 @@ img{
     color: #fff;
    }
 
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
 /*key frames*/
  @keyframes text_showing_box{
     50%{
@@ -697,17 +619,10 @@ img{
 
  @keyframes text_showing_divashpaudel{
     100%{
-        color: rgba(255, 0, 0, 0.809);
+        color: rgb(255, 0, 179);
         font-weight: 500;
     }
  }
-
-
-
-
-
-
-
 
  /*media query for width of 760px(tablet)*/
 
