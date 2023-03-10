@@ -784,35 +784,6 @@ form textarea{
 .contact-me{
     margin-top: 20px;
 }
-/*
-.contact-content{
-    display: flex;
-    flex-direction:column;
-    margin-left: 100px;
-}
-
-.contact-item{
-    display: flex;
-    width: 82%;
-    padding: 10px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 40px;
-    flex-direction:column;
-    transition: .5s;
-}
-.contact-item:hover{
-    transform: scale(1.2);
-}
-.photo{
-    width: 70px;
-    margin:0 auto;
-    margin-bottom: 18px;
-}*/
-/*other h1 and h2 css of contact page is associated with home page contact*/
-
-
 
 
 @media only screen and (max-width: 780px) {
@@ -838,7 +809,59 @@ form textarea{
       padding: 8px;
     }
   }
-  
+
+
+  /*Work experience page css */
+
+#Experience h2{
+    color: #8c00ff;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: .2rem;
+    padding: 1%;
+    text-decoration: underline;
+}
+#Experience p{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.row{
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+
+
+.column {
+	width:100%;
+    max-width: 80%;
+	padding: 20px;
+    border: 1px solid rgba(0, 255, 13, 0.276);
+    border-radius: 7px;
+    transition: .5s;
+}
+
+.column:hover{
+    border: 1px solid rgb(0, 255, 13);
+    transform: scale(1.1);
+
+}
+
+.column h3{
+    color: #8c00ff;
+    display: inline-table;
+    margin-bottom: 24px;
+    padding: 20px;
+}
+
+.column ul{
+    
+}
   
 
 
