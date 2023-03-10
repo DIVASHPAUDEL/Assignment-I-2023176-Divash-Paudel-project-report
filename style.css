@@ -47,7 +47,7 @@ p{
 .myname h1{
     text-transform: uppercase;
     color: #f7f7f7;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 .myname span{
     color: #d427ce;
@@ -497,6 +497,9 @@ img{
     padding: 50px 0 10px 0;
     min-height: 250px;
     flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
    }
    #footer h2{
     color: #fff;
@@ -510,6 +513,7 @@ img{
    #footer .media-logo{
     margin-bottom: 25px;
     display: flex;
+    flex-wrap: wrap;
    }
 
    #footer .media-items{
@@ -527,6 +531,9 @@ img{
    #footer p{
     color: #fff;
    }
+
+
+
 
    /*Started for portfolio page*/
 
@@ -774,6 +781,10 @@ form textarea{
     transform: scale(1.1);
   }
 
+.contact-me{
+    margin-top: 20px;
+}
+/*
 .contact-content{
     display: flex;
     flex-direction:column;
@@ -798,13 +809,37 @@ form textarea{
     width: 70px;
     margin:0 auto;
     margin-bottom: 18px;
-}
+}*/
 /*other h1 and h2 css of contact page is associated with home page contact*/
 
 
 
 
-
+@media only screen and (max-width: 780px) {
+    form {
+      width: 80%;
+      padding: 20px;
+    }
+    
+    form h1 {
+      font-size: 3rem;
+    }
+  
+    form label {
+      font-size: 1.1rem;
+    }
+  
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="number"],
+    form select,
+    form textarea {
+      font-size: 1.1rem;
+      padding: 8px;
+    }
+  }
+  
+  
 
 
 
