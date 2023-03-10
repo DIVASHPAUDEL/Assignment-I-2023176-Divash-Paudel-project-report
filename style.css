@@ -10,7 +10,7 @@ a{
 }
 
 .container{
-    min-height: 100vh;
+    min-height: 90vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -378,7 +378,8 @@ nav input:checked ~ .option{
   }
 
   #contact .contact-card:hover{
-    box-shadow: 0 0 4px 0 #000000;
+    box-shadow: 0 0 4px 0 #ff0404;
+    transform: scale(1.2);
   }
 
   #contact .icon{
@@ -700,6 +701,57 @@ img{
 }
 
 
+/*STARTED the css for the contact page*/
+
+form{
+    margin: 0 22px;
+    max-width: 600px;
+    border: 1px solid rgb(167, 14, 134);
+    border-radius: 6px;
+    padding: 30px;
+}
+
+form h1{
+    font-size: 4rem;
+    color: #000000;
+    margin-bottom: 20px;
+    font-weight: 300;
+    text-align: center;
+    text-transform:uppercase;
+    letter-spacing: .1rem;
+}
+
+form h1 span{
+    color: #f103dd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -784,6 +836,7 @@ img{
     /*Idol section in 760px width(tablet)*/
     #idol h1{
         font-size: 5.5rem;
+        margin-top: 10px;
     }
 
     /*my intrest section in 760px*/
