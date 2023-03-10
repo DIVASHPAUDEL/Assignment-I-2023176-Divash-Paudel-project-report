@@ -219,6 +219,10 @@ nav input:checked ~ .option{
     background-position: top center;
     position: relative;
     z-index: 1;
+    max-width:100%;
+    margin: 0 auto;
+    padding: 0 50px;
+    justify-content: flex-start;
 }
 /*created a overlay*/
 .idol::after{
@@ -233,12 +237,7 @@ nav input:checked ~ .option{
     z-index: -1;
 }
 
- .idol{
-    max-width:100%;
-    margin: 0 auto;
-    padding: 0 50px;
-    justify-content: flex-start;
-}
+
 .hi{
     margin-bottom: 150px;
 }
@@ -379,7 +378,7 @@ nav input:checked ~ .option{
 
   #contact .contact-card:hover{
     box-shadow: 0 0 4px 0 #ff0404;
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 
   #contact .icon{
@@ -441,16 +440,14 @@ nav input:checked ~ .option{
     background-image: url(./images/myintrestbg.jpg) ;
     background-size: cover;
     overflow:hidden;
-    z-index: -1;
 }
 
-/*i dont this need this hover at the moment
 #myintrest .myintrest-cards:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     box-shadow:10px 0px 40px rgb(123, 0, 255);
     transition: all 0.3s ease-in-out;
   }
-  */
+  
 
 #myintrest .myintrest-cards::after{
     content: '';
@@ -460,14 +457,14 @@ nav input:checked ~ .option{
     width: 100%;
     height: 100%;
     opacity: .7;
-    background-color: #191818;
-    z-index: -1;
+    background-color: #1e151571;
+    z-index: 1;
 }
 
 #myintrest .myintrest-down .icon{
     margin-bottom: 21px;
     width: 81px;
-    height: 81px;
+    height: 81px; 
 }
 /*for every image including the myintrest section images*/
 img{
@@ -536,21 +533,6 @@ img{
 
 
    /*Started for portfolio page*/
-
-.for-all-bg-img{
-    background-image:linear-gradient(rgba(4,8,32,0.6),rgba(4,8,32,0.6)),url(./images/forallbgnav.jpg);
-    height: 30vh;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-}
-
-.for-all-bg-img h1{
-    font-size: 3rem;
-    text-align: center;
-    color: #fff;
-    text-transform: uppercase;
-}
 
 /*MY DESIGNS  AND CARDS*/
 
@@ -820,10 +802,15 @@ form textarea{
     letter-spacing: .2rem;
     padding: 1%;
     text-decoration: underline;
+    margin-top: 20px;
 }
 #Experience p{
     text-align: center;
     margin: 20px auto;
+}
+
+#Experience h1{
+    margin-top: 25px;
 }
 
 .row{
@@ -844,6 +831,7 @@ form textarea{
     border: 1px solid rgba(0, 255, 13, 0.276);
     border-radius: 7px;
     transition: .5s;
+    margin-bottom: 50px;
 }
 
 .column:hover{
