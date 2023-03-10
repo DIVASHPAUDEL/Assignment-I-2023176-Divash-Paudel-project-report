@@ -849,7 +849,6 @@ form textarea{
 .column:hover{
     border: 1px solid rgb(0, 255, 13);
     transform: scale(1.1);
-
 }
 
 .column h3{
@@ -857,10 +856,25 @@ form textarea{
     display: inline-table;
     margin-bottom: 24px;
     padding: 20px;
+    margin-left: 65px;
+    font-size: 1.5rem;
 }
 
 .column ul{
-    
+    padding: 0px;
+   margin-left: 100px;
+   list-style:circle;
+}
+.column li{
+    margin-top: 20px;
+    font-size: 1rem;
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 1088px) {
+	.row {
+		grid-template-columns: 1fr;
+	}
 }
   
 
