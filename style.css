@@ -705,10 +705,12 @@ img{
 
 form{
     margin: 0 22px;
-    max-width: 600px;
-    border: 1px solid rgb(167, 14, 134);
+    width: 40%;
+    max-width: 1200px;
+    border: 1px solid rgb(255, 0, 200);
     border-radius: 6px;
     padding: 30px;
+    background-image: url(./images/idol-background.jpg);
 }
 
 form h1{
@@ -725,7 +727,79 @@ form h1 span{
     color: #f103dd;
 }
 
+form label{
+    color: #ffffff;
+    font-size: 1.3rem;
+    display: block;
+    margin-bottom: 7px;
+    /*margin-top: 8px;*/
+}
 
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form select,
+form textarea {
+    font-size: 1rem;
+    font-family:'Lucida Sans Unicode';
+    width: 100%;
+    display: block;
+    margin-bottom: 12px;
+    padding: 12px;
+    color: #ee00ff;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+}
+
+form textarea{
+    background: #b9b9b9;
+    border: 1px solid #b9b9b9;
+}
+
+.Button {
+    margin-top: 15px;
+    background-color: transparent;
+    color:  #fff;
+    display: inline-block;
+    border: 1px solid rgb(195, 0, 255);
+    padding: 11px 15px ;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    transition: .3s ease-in-out;
+  }
+  
+  .Button:hover {
+    color: #dddddd;
+    background-color:rgb(195, 0, 255);
+    transform: scale(1.1);
+  }
+
+.contact-content{
+    display: flex;
+    flex-direction:column;
+    margin-left: 100px;
+}
+
+.contact-item{
+    display: flex;
+    width: 82%;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    flex-direction:column;
+    transition: .5s;
+}
+.contact-item:hover{
+    transform: scale(1.2);
+}
+.photo{
+    width: 70px;
+    margin:0 auto;
+    margin-bottom: 18px;
+}
+/*other h1 and h2 css of contact page is associated with home page contact*/
 
 
 
