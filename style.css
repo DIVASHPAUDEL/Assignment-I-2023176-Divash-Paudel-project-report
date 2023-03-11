@@ -972,6 +972,35 @@ form textarea{
 }
 
 /*griding section of progress images*/
+#griding-images{
+    margin-top: 60px;
+    text-align: center;
+}
+
+#griding-images img{
+    height: auto;
+    max-width: 100%;
+}
+.grid-container-images{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 0 auto;
+    gap: 22px;
+    max-width: 1100px;
+    justify-items: center;
+    background: #81727265;
+}
+.Progress-title h1{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    font-size: 2rem;
+}
+
+
+
+
+
 
 
 
