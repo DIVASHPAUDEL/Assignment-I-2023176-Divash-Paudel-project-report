@@ -44,7 +44,7 @@ p{
 }
 
 /*for MY name style Divash paudel in top and in footer*/
-.myname h1{
+.myname h3{
     text-transform: uppercase;
     color: #f7f7f7;
     font-size: 2.5rem;
@@ -242,7 +242,7 @@ nav input:checked ~ .option{
     margin-bottom: 150px;
 }
 
-.idol  h1{
+.idol  h2{
     position: relative;
     display: block;
     width: fit-content;
@@ -252,11 +252,11 @@ nav input:checked ~ .option{
     animation-delay: 1.3s;
 }
 
-.idol h1:nth-child(3){
+.idol h2:nth-child(3){
     animation: text_showing_divashpaudel .4s ease forwards;
 }
 
-.idol h1 span{
+.idol h2 span{
 
     background-color: rgb(195, 0, 255);
     top: 0;
@@ -350,8 +350,8 @@ nav input:checked ~ .option{
     margin: 20px 0;
 }
 
-.about-me-text h1{
-    font-size: 3rem;
+.about-me-text h2{
+    font-size: 4rem;
     color: #000000;
     margin-bottom: 20px;
     font-weight: 300;
@@ -412,7 +412,7 @@ nav input:checked ~ .option{
     margin-bottom: 18px;
   }
 
-  #contact .contact-info h1{
+  #contact .contact-info h3{
     font-size: 2.5rem;
     color: #000000;
     margin-bottom: 12px;
@@ -568,7 +568,7 @@ img{
     padding: 110px 0;
 }
 
-#Designs .Designs-head h1{
+#Designs .Designs-head h2{
     margin-bottom: 100px;
 }
 
@@ -606,7 +606,7 @@ img{
     transform: scale(1.08);
 }
 
-#Designs .Designs-info h1{
+#Designs .Designs-info h3{
     font-weight: 500;
     font-size: 3.5rem;
 }
@@ -727,7 +727,7 @@ form{
     background-image: url(./images/idol-background.jpg);
 }
 
-form h1{
+form h3{
     font-size: 4rem;
     color: #000000;
     margin-bottom: 20px;
@@ -737,7 +737,7 @@ form h1{
     letter-spacing: .1rem;
 }
 
-form h1 span{
+form h3 span{
     color: #f103dd;
 }
 
@@ -799,7 +799,7 @@ form textarea{
       padding: 20px;
     }
     
-    form h1 {
+    form h3 {
       font-size: 3rem;
     }
   
@@ -820,7 +820,7 @@ form textarea{
 
   /*Work experience page css */
 
-#Experience h2{
+#Experience h4{
     color: #8c00ff;
     font-size: 2rem;
     text-align: center;
@@ -829,13 +829,31 @@ form textarea{
     text-decoration: underline;
     margin-top: 20px;
 }
+#Experience-2 h4{
+    color: #8c00ff;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: .2rem;
+    padding: 1%;
+    text-decoration: underline;
+    margin-top: 20px;
+
+}
 #Experience p{
     text-align: center;
     margin: 20px auto;
 }
 
-#Experience h1{
+#Experience-2 p{
+    text-align: center;
+    margin: 20px auto;
+
+}
+#Experience h2{
     margin-top: 25px;
+}
+#Experience-2 h2{
+    margin-top: 25px;    
 }
 
 .row{
@@ -893,7 +911,16 @@ form textarea{
         margin-top: 50px;
     }
 
+    #Experience-2 .each-sections-title{
+        margin-top: 50px;
+    }
+    
+
     #Experience .column{
+        margin-bottom: 50px;
+    }
+
+    #Experience-2 .column{
         margin-bottom: 50px;
     }
 }
@@ -901,12 +928,28 @@ form textarea{
 
 
 /*site report page*/
-.content-of-sitereport{
+.content-of-sitereport-1{
     margin: 5px;
     padding: 50px auto;
     width: 80%;
     max-width: 1000px;
 }
+.content-of-sitereport-2{
+    margin: 5px;
+    padding: 50px auto;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.content-of-sitereport-3{
+    margin: 5px;
+    padding: 50px auto;
+    width: 80%;
+    max-width: 1000px;
+}
+
+
+
 
 .blog-style{
     display: flex;
@@ -990,7 +1033,7 @@ form textarea{
     justify-items: center;
     background: #81727265;
 }
-.Progress-title h1{
+.Progress-title h2{
     text-align: center;
     margin-bottom: 50px;
     margin-top: 40px;
@@ -1070,15 +1113,15 @@ form textarea{
         font-size: 2.4rem;
     }
 
-     h1.each-sections-title{
-        font-size: 5rem;
+     h2.each-sections-title{
+        font-size: 4rem;
     }
-    .about-me-text h1{
+    .about-me-text h2{
         font-size: 5rem;
     }
 
     /*Idol section in 760px width(tablet)*/
-    #idol h1{
+    #idol h2{
         font-size: 5.5rem;
         margin-top: 10px;
     }
@@ -1124,7 +1167,7 @@ form textarea{
         font-size: 18px;
       }
       
-      .about-me-text h1 {
+      .about-me-text h2 {
         font-size: 4rem;
         margin-bottom: 40px;
         margin-top: 30px;
