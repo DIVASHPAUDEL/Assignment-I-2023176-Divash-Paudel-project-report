@@ -562,7 +562,7 @@ img{
 /*MY DESIGNS  AND CARDS*/
 
 #Designs .Designs{
-    margin-bottom: 0 auto;
+    margin-bottom: auto;
     flex-direction: column;
     max-width: 1300px;
     padding: 110px 0;
@@ -930,20 +930,20 @@ form textarea{
 /*site report page*/
 .content-of-sitereport-1{
     margin: 5px;
-    padding: 50px auto;
+    padding: 50px;
     width: 80%;
     max-width: 1000px;
 }
 .content-of-sitereport-2{
     margin: 5px;
-    padding: 50px auto;
+    padding: 50px;
     width: 80%;
     max-width: 1000px;
 }
 
 .content-of-sitereport-3{
     margin: 5px;
-    padding: 50px auto;
+    padding: 50px;
     width: 80%;
     max-width: 1000px;
 }
@@ -983,7 +983,7 @@ form textarea{
 .left-content p{
     color: #5c535cd7;
     letter-spacing: .2rem;
-    margin-left: 21px 0;
+    margin-left: 21px;
 }
 
 .right-content{
@@ -999,7 +999,7 @@ form textarea{
     font-size: 2rem;
     margin-bottom: 18px;
     margin-left: 8px;
-    padding: 8px auto;
+    padding: 8px;
     text-align: center;
 }
 
@@ -1038,6 +1038,28 @@ form textarea{
     margin-bottom: 50px;
     margin-top: 40px;
     font-size: 2rem;
+    
+}
+
+#griding-images-2{
+    margin-top: 60px;
+    text-align: center;
+}
+#griding-images-2 img{
+    height: auto;
+    max-width: 100%;
+}
+
+/*Validatioon part*/
+#validation img{
+    height: auto;
+    width: 80%;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+#validation p{
+    text-align: center;
+    color: #d427ce;
 }
 
 
